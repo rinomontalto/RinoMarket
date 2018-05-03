@@ -1,6 +1,6 @@
 @import "materialize/components/color-variables";
 $primary-color: color("blue", "lighten-2") !default;
-$secondary-color: color("yellow", "base") !default;
+$secondary-color: color("light-green", "base") !default;
 @import "materialize";
 @import "https://fonts.googleapis.com/icon?family=Material+Icons";
 
@@ -12,4 +12,8 @@ body {
 
   main {
     flex: 1 0 auto;
+  }
+
+  .btn-devise {
+  	width: 100%;
   }
