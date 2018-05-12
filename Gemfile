@@ -14,7 +14,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem "paperclip", "~> 6.0.0"
 gem 'jbuilder', '~> 2.5'
 gem 'devise'
 gem 'materialize-sass', '~> 1.0.0.beta'
