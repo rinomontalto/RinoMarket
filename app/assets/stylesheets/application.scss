@@ -17,6 +17,9 @@ h1 {
   main {
     flex: 1 0 auto;
   }
+  .card-image{
+    height: 150px;
+  }
 
   .btn-devise {
   	width: 100%;
@@ -37,3 +40,11 @@ h1 {
   .show-prezzo {
     font-size: 2.0em;
   }
+
+  .banner{
+    background-image: url("background.jpg");
+    color: white;
+  }
+.pagination li.active a {
+  color: #fff;
+}
