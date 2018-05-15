@@ -10,12 +10,19 @@ body {
     flex-direction: column;
   }
 
+h1 {
+  font-size: 3em;
+}
+
   main {
     flex: 1 0 auto;
   }
 
   .btn-devise {
   	width: 100%;
+  }
+  .btn-width {
+    width: 100%;
   }
 
   .Allinea-titolo {
