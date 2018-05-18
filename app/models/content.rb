@@ -5,6 +5,10 @@ class Content < ApplicationRecord
   	message:"Supportate solo file immagini"
 
   	has_attached_file :allegato, :content_type =>[/^image\/(png|jpeg|gif)/,'application/msword','application/mspowerpoint','application/pdf','application/msexcel'],
-  	message: "Formato non supportato
-  	"
+  	message: "Formato non supportato"
+
+  	validates :titolo, :descrizione, :price, presence: true
+  	validates :price, numericality: { greater_than: 0 }
+  	validates :cover, attachment_presence: true
+  	validates :allegato, attachment_presence: true
 end
